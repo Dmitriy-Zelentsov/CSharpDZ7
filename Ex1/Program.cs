@@ -11,7 +11,7 @@ double [,] CreateMatrix(int rowCount, int columnCount)
     {
         for (int column = 0; column < columnCount; column++)
         {
-            array[row, column] = new Random().NextDouble()*4-2;
+            array[row, column] = new Random().NextDouble()*6-2;
         }
     }
     return array;
